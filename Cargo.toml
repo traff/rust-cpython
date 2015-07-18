@@ -36,12 +36,9 @@ abort_on_panic = "1.0"
 optional = true
 path = "python27-sys"
 
-
 [dependencies.python3-sys]
 optional = true
 
-[features]
-default = ["python3-sys"]
 
 # Optional features to support explicitly specifying python minor version.
 # If you don't care which minor version, just specify python3-sys as a 
