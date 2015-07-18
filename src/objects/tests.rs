@@ -30,5 +30,5 @@ fn test_hashmap_to_python() {
     let py_map = map.to_py_object(py);
 
     assert!(py_map.len() == 1);
-    assert!( py_map.get_item(1).unwrap().extract::<i32>().unwrap() == 1);
+    assert!(py_map.get_item(1).unwrap().extract::<i32>().unwrap() == 1);
 }
